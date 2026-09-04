@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local app vector store
+data/chroma_db_app/
+
+# Local secrets (use Cloud Secrets / env in production)
+.streamlit/secrets.toml

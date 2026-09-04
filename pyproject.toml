@@ -1,0 +1,22 @@
+[project]
+name = "ragtutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "chromadb>=1.5.9",
+    "faiss-cpu>=1.15.0",
+    "ipykernel>=7.3.0",
+    "langchain>=1.3.18",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.6.1",
+    "langchain-text-splitters>=1.1.2",
+    "ngrok>=1.4.0",
+    "ollama>=0.6.2",
+    "pymupdf>=1.28.2",
+    "pypdf>=6.16.2",
+    "sentence-transformers>=6.0.1",
+    "streamlit>=1.63.0",
+]
